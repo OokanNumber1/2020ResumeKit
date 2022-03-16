@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is an implementation of this design => https://www.figma.com/file/v9kdybr6Y1XhCCJ7pxJTC8/2020-Responsive-Resume-Kit-(Community)?node-id=25%3A840 
 
 A few resources to get you started if this is your first Flutter project:
 
