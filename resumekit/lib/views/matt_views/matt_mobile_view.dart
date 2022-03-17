@@ -12,9 +12,9 @@ class MattMobileView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
-            child: OrientationBuilder(
-                builder: (context, orientation) =>
-                    orientation == Orientation.landscape
+            child: LayoutBuilder(
+                builder: (context, constraints) =>
+                    MediaQuery.of(context).orientation == Orientation.landscape
                         ? mattLandscape(context)
                         : mattPortrait(context))
             // child: SizerUtil.orientation == Orientation.landscape

@@ -8,7 +8,7 @@ Widget mattPortrait(BuildContext context) {
     children: [
       Container(
         //! is buildContext in AppSizes class okay or Mediaquery here is better
-        height: AppSizes.appHeight(context) * 0.75,
+        height: AppSizes.appHeight(context) * 0.7,
         width: double.infinity,
         decoration: BoxDecoration(
           color: Colors.grey[100],
