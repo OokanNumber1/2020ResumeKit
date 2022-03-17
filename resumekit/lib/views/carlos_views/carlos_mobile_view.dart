@@ -18,9 +18,9 @@ class CarlosMobileView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const AppBarDetails(),
-                const SizedBox(
-                  //height: 4.2.h,
-                  height: 100,
+                SizedBox(
+                  height: 4.2.h,
+                  //height: 100,
                 ),
                 Text(
                   'Carlos Montoya',

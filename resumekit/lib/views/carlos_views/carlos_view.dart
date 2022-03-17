@@ -16,17 +16,5 @@ class CarlosView extends StatelessWidget {
       default:
         return const SizedBox();
     }
-    //return const Scaffold(
-    // //appBar: AppBar(),
-    // backgroundColor: Colors.black,
-    // body: SafeArea(
-    //     child: SizerUtil.deviceType == DeviceType.mobile
-    //         ? const CarlosMobileView()
-    //         : SizerUtil.deviceType == DeviceType.web
-    //             ? const CarlosWebView()
-    //             : SizerUtil.deviceType == DeviceType.tablet
-    //                 ? const CarlosMobileView()
-    //                 : const SizedBox()),
-    //  );
   }
 }
