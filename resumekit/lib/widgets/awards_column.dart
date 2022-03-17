@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-
 class AwardsColumn extends StatelessWidget {
   const AwardsColumn({Key? key}) : super(key: key);
 

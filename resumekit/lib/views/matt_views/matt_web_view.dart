@@ -69,7 +69,6 @@ class MattWebView extends StatelessWidget {
                       ],
                     )
                   ],
-                  //mainAxisAlignment: ,
                 ),
               ),
               Padding(
@@ -79,7 +78,6 @@ class MattWebView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
-                      // mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: const [
                         SkillSetColumn(),
@@ -94,7 +92,6 @@ class MattWebView extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const AboutMe(),

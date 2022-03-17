@@ -3,7 +3,6 @@ import 'package:resumekit/views/matt_views/matt_mobile_view.dart';
 import 'package:resumekit/views/matt_views/matt_web_view.dart';
 import 'package:sizer/sizer.dart';
 
-//import 'package:flutter/sizer/sizer.dart';
 class MattView extends StatelessWidget {
   const MattView({Key? key}) : super(key: key);
 

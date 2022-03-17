@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:resumekit/views/carlos_views/carlos_view.dart';
 import 'package:resumekit/views/matt_views/matt_view.dart';
-
 import 'package:sizer/sizer.dart';
 
 void main() {
